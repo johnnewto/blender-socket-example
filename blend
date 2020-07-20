@@ -1,0 +1,6 @@
+#!/bin/bash
+echo kill all blender processes
+sudo pkill -9 blender
+pgrep blender
+
+/home/john/blender-2.82a/blender Debug.blend --python ./debug_scripts/start_debug.py
