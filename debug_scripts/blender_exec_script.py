@@ -3,10 +3,9 @@
 import sys
 import os
 if os.name in 'nt':
-    SCRIPT='C:\\Users\John\\Documents\\git\\socket_example\\remote_camera.py'
-#    SCRIPT='C:\\Users\John\\Documents\\git\\socket_example\\operator_modal_timer.py'
+    SCRIPT='C:\\Users\John\\Documents\\git\\blender-socket-example\\remote_camera.py'
 else:
-    SCRIPT='/home/john/git/socket_example/remote_camera.py' 
+    SCRIPT='/home/john/git/blender-socket-example/remote_camera.py'
 
 exec(compile(open(SCRIPT).read(), SCRIPT, 'exec'))
 
