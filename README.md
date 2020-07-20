@@ -2,6 +2,7 @@
 Using a modal socket with blender to move &amp; control cameras or objects
 
 In Pycharm start Debug Blender-Debug profile remote debugger
+
 <img src="assets/PyCharm-1.png" alt="" width="300"/>
 
 The debug console should show waiting for connection
